@@ -1,14 +1,15 @@
 {
   "name": "nested-query-parser",
   "version": "1.0.0",
-  "description": "Encode nested JSON to query string and decode query string to JSON.",
+  "description": "parse and stringfy nested JSON to readable URL query string",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "npm start",
     "dev": "npx nodemon index.js"
   },
-  "author": "Manik Dhanjal",
+  "keywords": ["url","query","nested","json","parser","encoder","decoder"],
+  "author": "Manik Dhanjal <manikdhanjal217@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.0.3",
