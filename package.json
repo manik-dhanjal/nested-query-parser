@@ -1,6 +1,6 @@
 {
   "name": "nested-query-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parse and stringfy nested JSON to readable URL query string",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,19 @@
     "start": "npm start",
     "dev": "npx nodemon index.js"
   },
-  "keywords": ["url","query","nested","json","parser","encoder","decoder"],
+  "keywords": ["browser","url","param","searchParams","filter","query","nested","json","parser","encoder","decoder"],
   "author": "Manik Dhanjal <manikdhanjal217@gmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "jest": "^29.0.3",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manik-dhanjal/nested-query-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/manik-dhanjal/nested-query-parser/issues"
+  },
+  "homepage": "https://github.com/manik-dhanjal/nested-query-parser#readme"
 }

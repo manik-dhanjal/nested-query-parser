@@ -1,7 +1,7 @@
-const encodeQuery = require("./src/encoder/encoder");
-const decodeQuery = require("./src/decoder/decoder");
+const encode = require("./src/encoder/encoder");
+const decode = require("./src/decoder/decoder");
 
 module.exports = {
-    decodeQuery,
-    encodeQuery
+    decode,
+    encode
 };
